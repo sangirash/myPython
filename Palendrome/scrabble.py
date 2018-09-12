@@ -1,6 +1,6 @@
 WORD_LIST = "sowpods.txt"
 wordlist = open(WORD_LIST).readlines()
-# Get rid of newlines for hold for test for another full on
+# Get rid of newlines for hold for test for another full on session
 wordlist = [word.lower().strip() for word in wordlist]
 
 scores = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
